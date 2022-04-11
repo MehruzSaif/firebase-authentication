@@ -50,7 +50,7 @@ function App() {
     <div className="App">
       {/* {condition ? true : false} */}
       {
-        user.email ? <button onClick={handleSignOut}>Sign-out</button>
+        user.uid ? <button onClick={handleSignOut}>Sign-out</button>
           :
           <>
             <button onClick={handleGoogleSignIn}>Google sign in</button>
